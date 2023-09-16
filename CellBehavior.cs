@@ -48,9 +48,9 @@ public class Info : MonoBehaviour
     public static int foodSpawnFrequency = 40;
 
     public static bool displayDiseaseParticles = false;
-    public float sizeDiseaseParticles = 5f;
+    public static float sizeDiseaseParticles = 5f;
 
-    public float cameraOrbitSpeed = 50f;
+    public static float cameraOrbitSpeed = 50f;
 
     public static List<string> genders = new List<string> { "male", "female" };
 }
